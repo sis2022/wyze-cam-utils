@@ -18,3 +18,5 @@
     * work on all (-a) directories
     * specify date (YYYYmmdd) to work on
     * by default work on todays and yesterdays directories
+    * 
+* License: GPLv2
