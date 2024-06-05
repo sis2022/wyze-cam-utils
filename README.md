@@ -3,7 +3,7 @@
 * suitable for scheduled execution via cron: only errors output
 
 * Wyze Cams indiscriminately create directory trees in this format
-  <YYYYmmdd>/hh/ whether there's data written or not.
+  'YYYYmmdd/hh/' whether there's data written or not.
 
 
 * Scripts 'createCamThumbs.sh' and 'cleanEmptyCamDirs.sh'
