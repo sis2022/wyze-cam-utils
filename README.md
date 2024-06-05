@@ -18,5 +18,11 @@
     * work on all (-a) directories
     * specify date (YYYYmmdd) to work on
     * by default work on todays and yesterdays directories
-    * 
+
+* Cronjob daily @06h00:
+```
+0 6 * * * root test -x /usr/local/sbin/cleanEmptyCamDirs.sh && /usr/local/sbin/cleanEmptyCamDirs.sh
+5 6 * * * root test -x /usr/local/sbin/createCamThumbs.sh && /usr/local/sbin/createCamThumbs.sh
+```
+
 * License: GPLv2
